@@ -81,7 +81,7 @@ Navigate to the Power_BI folder.
 Open spacex_report.pbix with Power BI Desktop.
 
 ### 🛠 Setup Requirements
-## ✅ Prerequisites
+#### ✅ Prerequisites
 Python 3.11.5 or higher
 
 PostgreSQL installed and running
