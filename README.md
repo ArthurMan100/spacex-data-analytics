@@ -20,6 +20,10 @@ This project extracts, transforms, and loads SpaceX launch data using a structur
 ├── Power_BI/
 │ └── spacex_report.pbix # Power BI report for data analysis
 │
+│── raw_data/
+│
+│── clean_data/
+│
 └── README.md
 ```
 ---
