@@ -5,7 +5,7 @@ This project extracts, transforms, and loads SpaceX launch data using a structur
 ---
 
 ## 📁 Project Structure
-
+```
 ├── Extract_Data/
 │ ├── extract_api.ipynb # Extracts launch data via SpaceX API
 │ └── extract_web.ipynb # (Optional) Web scraping version
@@ -21,7 +21,7 @@ This project extracts, transforms, and loads SpaceX launch data using a structur
 │ └── spacex_report.pbix # Power BI report for data analysis
 │
 └── README.md
-
+```
 ---
 
 ## 🔧 Pipeline Overview
@@ -63,10 +63,20 @@ DB_PASSWORD=your_password
 
 ### 4. Run notebooks in order
 
+Extract: extract_api.ipynb or extract_web.ipynb
+
+Transform: transform_api.ipynb or transform_web.ipynb
+
+Load: load_to_postgres.ipynb
+
 ### 5. Open Power BI Report
 
-### 🛠 Setup Requirements
+Navigate to the Power_BI folder.
 
+Open spacex_report.pbix with Power BI Desktop.
+
+### 🛠 Setup Requirements
+##✅ Prerequisites
 Python 3.11.5 or higher
 
 PostgreSQL installed and running
