@@ -50,10 +50,10 @@ Explore the insights in `Power_BI/spacex_report.pbix`, including:
 ## 🚀 Getting Started
 
 ### 1. Clone the repository:
-
-git clone https://github.com/arthurman100/spacex-etl-pipeline.git
+```
+git clone https://github.com/ArthurMan100/spacex-data-analytics.git
 cd spacex-etl-pipeline
-
+```
 ### 2. Install dependencies
 pip install -r requirements.txt
 
