@@ -20,9 +20,9 @@ This project extracts, transforms, and loads SpaceX launch data using a structur
 ├── Power_BI/
 │ └── spacex_report.pbix # Power BI report for data analysis
 │
-│── raw_data/
+│── raw_data
 │
-│── clean_data/
+│── clean_data
 │
 └── README.md
 ```
@@ -62,9 +62,10 @@ cd spacex-etl-pipeline
 pip install -r requirements.txt
 
 ### 3. Set up environment variables (in a .env file)
+```
 DB_PORT=5432
 DB_PASSWORD=your_password
-
+```
 ### 4. Run notebooks in order
 
 Extract: extract_api.ipynb or extract_web.ipynb
