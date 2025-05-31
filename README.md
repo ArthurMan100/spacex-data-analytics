@@ -55,7 +55,7 @@ Explore the insights in `Power_BI/spacex_report.pbix`, including:
 
 ### 1. Clone the repository:
 ```
-git clone https://github.com/ArthurMan100/spacex-data-analytics.git
+git clone https://github.com/arthur-georgeson/spacex-data-analytics.git
 cd spacex-etl-pipeline
 ```
 ### 2. Install dependencies
